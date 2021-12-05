@@ -7,6 +7,7 @@ This repo contains the code for the final project of the network science class a
 | 1     | EDA                               |          |        |                                   |
 |       | Data Prep. (Ready for corr calc.) |          |        |                                   |
 |       | Cross-correlation matrices        |          |        |                                   |
+|       | Estimation of Q for each matrix   |          |        |                                   |
 |       | MST Construction                  |          |        |                                   |
 |       | Initial draft w/ MST              | 6.12     |        | Monday, w/ Claudio and Yu on-site |
 |       | Feedback request                  | 6.12     |        | Monday, w/ Claudio and Yu on-site |
