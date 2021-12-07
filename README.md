@@ -1,6 +1,7 @@
 # network_science_project
 This repo contains the code for the final project of the network science class at UZH Fall 2021.
 
+
 | Stage | Subtask                        | Due date     | Status      | Contributors   | Comment                     |
 |-------|--------------------------------|--------------|-------------|----------------|-----------------------------|
 | 0     | Proposal & Data Acquisition    | 29.11        | Done        | Laurin & Zheng |                             |
@@ -20,3 +21,4 @@ This repo contains the code for the final project of the network science class a
 | 3     | Final fine tuning              |              |             |                |                             |
 |       | Proof-read                     |              |             |                |                             |
 |       | Submission                     | 17.12        |             |                | Friday, submission deadline |
+
