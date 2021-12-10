@@ -1,0 +1,14 @@
+name: NS_project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.6
+  - notebook=6.4.3
+  - numpy=1.21.2
+  - matplotlib=3.4.3
+  - networkx=2.6.3
+  - pandas=1.3.3
+  - scipy=1.7.1
+  - seaborn=0.11.2
+  - plotly=5.4.0
