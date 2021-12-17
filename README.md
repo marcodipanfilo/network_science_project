@@ -26,30 +26,19 @@ Contribution by topic (topics sorted in chronological order) are given in the ta
 agreed that the workload was distributed fairly and the conclusions were discussed and reached as a group
 during regular group meetings
 
-|------------------------------------|----------------------|-----------------------------------|
 | Topic                              | Contributor          | File                              |
 |------------------------------------|----------------------|-----------------------------------|
 | Proposal                           | Laurin van den Bergh |                                   |
 |                                    | Zheng Luo            |                                   |
-|------------------------------------|----------------------|-----------------------------------|
 | Coordination                       | Laurin van den Bergh |                                   |
-|------------------------------------|----------------------|-----------------------------------|
 | Exploratory Data Analysis          | Laurin van den Bergh | 1-EDA.ipynb                       |
 |                                    | Zheng Luo            | 1.1-Data cleansing EDA.ipynb      |
-|------------------------------------|----------------------|-----------------------------------|
 | Data Preparation                   | Laurin van den Bergh | 1-EDA.ipynb, corrmat functions.py |
-|------------------------------------|----------------------|-----------------------------------|
 | Maximum Likelihood Estimation of Q | Laurin van den Bergh | 2-mle of Q.ipynb                  |
-|------------------------------------|----------------------|-----------------------------------|
 | Denoising Correlation Matrices     | Lorenzo Spoleti      | 3-denoise and mst.ipynb           |
-|------------------------------------|----------------------|-----------------------------------|
 | Mininum Spanning Tree              | Lorenzo Spoleti      | 3-denoise and mst.ipynb           |
-|------------------------------------|----------------------|-----------------------------------|
 | Threshold Network                  | Zheng Luo            | 3.1-threshold networks.ipynb      |
-|------------------------------------|----------------------|-----------------------------------|
 | Planar Maximally Filtered Graph    | Marco Di Panfilo     | 3.2-PMFG networks.ipynb           |
-|------------------------------------|----------------------|-----------------------------------|
 | Network Property Analysis          | Laurin van den Bergh | 4-network properties.ipy          |
 |                                    | Lorenzo Spoleti      |                                   |
-|------------------------------------|----------------------|-----------------------------------|
 
