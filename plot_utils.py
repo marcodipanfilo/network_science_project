@@ -98,7 +98,7 @@ def plot_network(*, graph, layout='planar', title="", min_node_degree_to_show_la
                                arrowhead=1)
     fig.show()
 
-def plot_networks(*, graphs_1, graphs_2=None, label_graph_1='PMFG', label_graph_2='MST',  layout='planar', title="", min_node_degree_to_show_label=10, top_perc_to_show_label=0.15, show_nodes_with_nan=True):
+def plot_networks(*, graphs_1, graphs_2=None, label_graph_1='PMFG', label_graph_2='MST',  layout='planar', title="", min_node_degree_to_show_label=10, top_perc_to_show_label=0.15, show_nodes_with_nan=True, width_graph_1=1, width_graph_2=0.5):
     graphs_1 = graphs_1.copy()
     if graphs_2:
         graphs_2 = graphs_2.copy()
@@ -202,7 +202,7 @@ def plot_networks(*, graphs_1, graphs_2=None, label_graph_1='PMFG', label_graph_
             
         edge_trace = go.Scatter(
             x=edge_x, y=edge_y,
-            line=dict(width=0.5, 
+            line=dict(width=width_graph_2, 
                       color='#888'),
             #hoverinfo='none',
             hoverinfo='text',
@@ -230,7 +230,7 @@ def plot_networks(*, graphs_1, graphs_2=None, label_graph_1='PMFG', label_graph_
                 
             edge_trace_mst = go.Scatter(
                 x=edge_x, y=edge_y,
-                line=dict(width=1, 
+                line=dict(width=width_graph_1, 
                         color='#ff3221'),
                 #hoverinfo='none',
                 hoverinfo='text',
